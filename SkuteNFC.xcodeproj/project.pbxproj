@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0127A8DE1F3792FF008375C5 /* LFCChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127A8DD1F3792FF008375C5 /* LFCChannel.swift */; };
+		01A4BF171F313DAB00525823 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4BF161F313DAB00525823 /* ChannelViewController.swift */; };
+		01A4BF1A1F31441100525823 /* NewBalanceBoots.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 01A4BF181F3143F500525823 /* NewBalanceBoots.mp4 */; };
+		01A4BF1C1F31445900525823 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A4BF1B1F31445900525823 /* VideoViewController.swift */; };
+		01DCDCD21F2959DB00CC54E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCDCD11F2959DB00CC54E1 /* AppDelegate.swift */; };
+		01DCDCD41F2959DB00CC54E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCDCD31F2959DB00CC54E1 /* ViewController.swift */; };
+		01DCDCD71F2959DB00CC54E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DCDCD51F2959DB00CC54E1 /* Main.storyboard */; };
+		01DCDCD91F2959DB00CC54E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DCDCD81F2959DB00CC54E1 /* Assets.xcassets */; };
+		01DCDCDC1F2959DB00CC54E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DCDCDA1F2959DB00CC54E1 /* LaunchScreen.storyboard */; };
+		01DCDD001F295AA000CC54E1 /* NFCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCDCFF1F295AA000CC54E1 /* NFCHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01DCDCE31F2959DB00CC54E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01DCDCC61F2959DB00CC54E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01DCDCCD1F2959DB00CC54E1;
+			remoteInfo = SkuteNFC;
+		};
+		01DCDCEE1F2959DB00CC54E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01DCDCC61F2959DB00CC54E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01DCDCCD1F2959DB00CC54E1;
+			remoteInfo = SkuteNFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0127A8DD1F3792FF008375C5 /* LFCChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFCChannel.swift; sourceTree = "<group>"; };
+		01A4BF161F313DAB00525823 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		01A4BF181F3143F500525823 /* NewBalanceBoots.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewBalanceBoots.mp4; sourceTree = "<group>"; };
+		01A4BF1B1F31445900525823 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		01DCDCCE1F2959DB00CC54E1 /* SkuteNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkuteNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DCDCD11F2959DB00CC54E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01DCDCD31F2959DB00CC54E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01DCDCD61F2959DB00CC54E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01DCDCD81F2959DB00CC54E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01DCDCDB1F2959DB00CC54E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01DCDCDD1F2959DB00CC54E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DCDCE21F2959DB00CC54E1 /* SkuteNFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkuteNFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DCDCED1F2959DB00CC54E1 /* SkuteNFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkuteNFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DCDCFF1F295AA000CC54E1 /* NFCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCHelper.swift; sourceTree = "<group>"; };
+		01DCDD011F295B4700CC54E1 /* SkuteNFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkuteNFC.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01DCDCCB1F2959DB00CC54E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DCDCDF1F2959DB00CC54E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DCDCEA1F2959DB00CC54E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DCDCC51F2959DB00CC54E1 = {
+			isa = PBXGroup;
+			children = (
+				01DCDCD01F2959DB00CC54E1 /* SkuteNFC */,
+				01DCDCCF1F2959DB00CC54E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01DCDCCF1F2959DB00CC54E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DCDCCE1F2959DB00CC54E1 /* SkuteNFC.app */,
+				01DCDCE21F2959DB00CC54E1 /* SkuteNFCTests.xctest */,
+				01DCDCED1F2959DB00CC54E1 /* SkuteNFCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01DCDCD01F2959DB00CC54E1 /* SkuteNFC */ = {
+			isa = PBXGroup;
+			children = (
+				01A4BF181F3143F500525823 /* NewBalanceBoots.mp4 */,
+				01DCDD011F295B4700CC54E1 /* SkuteNFC.entitlements */,
+				01DCDCD11F2959DB00CC54E1 /* AppDelegate.swift */,
+				01DCDCD31F2959DB00CC54E1 /* ViewController.swift */,
+				01A4BF1B1F31445900525823 /* VideoViewController.swift */,
+				01DCDCD51F2959DB00CC54E1 /* Main.storyboard */,
+				0127A8DD1F3792FF008375C5 /* LFCChannel.swift */,
+				01A4BF161F313DAB00525823 /* ChannelViewController.swift */,
+				01DCDCD81F2959DB00CC54E1 /* Assets.xcassets */,
+				01DCDCDA1F2959DB00CC54E1 /* LaunchScreen.storyboard */,
+				01DCDCDD1F2959DB00CC54E1 /* Info.plist */,
+				01DCDCFF1F295AA000CC54E1 /* NFCHelper.swift */,
+			);
+			path = SkuteNFC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01DCDCCD1F2959DB00CC54E1 /* SkuteNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DCDCF61F2959DB00CC54E1 /* Build configuration list for PBXNativeTarget "SkuteNFC" */;
+			buildPhases = (
+				01DCDCCA1F2959DB00CC54E1 /* Sources */,
+				01DCDCCB1F2959DB00CC54E1 /* Frameworks */,
+				01DCDCCC1F2959DB00CC54E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkuteNFC;
+			productName = SkuteNFC;
+			productReference = 01DCDCCE1F2959DB00CC54E1 /* SkuteNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01DCDCE11F2959DB00CC54E1 /* SkuteNFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DCDCF91F2959DB00CC54E1 /* Build configuration list for PBXNativeTarget "SkuteNFCTests" */;
+			buildPhases = (
+				01DCDCDE1F2959DB00CC54E1 /* Sources */,
+				01DCDCDF1F2959DB00CC54E1 /* Frameworks */,
+				01DCDCE01F2959DB00CC54E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DCDCE41F2959DB00CC54E1 /* PBXTargetDependency */,
+			);
+			name = SkuteNFCTests;
+			productName = SkuteNFCTests;
+			productReference = 01DCDCE21F2959DB00CC54E1 /* SkuteNFCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01DCDCEC1F2959DB00CC54E1 /* SkuteNFCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DCDCFC1F2959DB00CC54E1 /* Build configuration list for PBXNativeTarget "SkuteNFCUITests" */;
+			buildPhases = (
+				01DCDCE91F2959DB00CC54E1 /* Sources */,
+				01DCDCEA1F2959DB00CC54E1 /* Frameworks */,
+				01DCDCEB1F2959DB00CC54E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01DCDCEF1F2959DB00CC54E1 /* PBXTargetDependency */,
+			);
+			name = SkuteNFCUITests;
+			productName = SkuteNFCUITests;
+			productReference = 01DCDCED1F2959DB00CC54E1 /* SkuteNFCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01DCDCC61F2959DB00CC54E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dan Griffiths";
+				TargetAttributes = {
+					01DCDCCD1F2959DB00CC54E1 = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					01DCDCE11F2959DB00CC54E1 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 01DCDCCD1F2959DB00CC54E1;
+					};
+					01DCDCEC1F2959DB00CC54E1 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 01DCDCCD1F2959DB00CC54E1;
+					};
+				};
+			};
+			buildConfigurationList = 01DCDCC91F2959DB00CC54E1 /* Build configuration list for PBXProject "SkuteNFC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01DCDCC51F2959DB00CC54E1;
+			productRefGroup = 01DCDCCF1F2959DB00CC54E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01DCDCCD1F2959DB00CC54E1 /* SkuteNFC */,
+				01DCDCE11F2959DB00CC54E1 /* SkuteNFCTests */,
+				01DCDCEC1F2959DB00CC54E1 /* SkuteNFCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01DCDCCC1F2959DB00CC54E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4BF1A1F31441100525823 /* NewBalanceBoots.mp4 in Resources */,
+				01DCDCDC1F2959DB00CC54E1 /* LaunchScreen.storyboard in Resources */,
+				01DCDCD91F2959DB00CC54E1 /* Assets.xcassets in Resources */,
+				01DCDCD71F2959DB00CC54E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DCDCE01F2959DB00CC54E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DCDCEB1F2959DB00CC54E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DCDCCA1F2959DB00CC54E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DCDCD41F2959DB00CC54E1 /* ViewController.swift in Sources */,
+				01DCDD001F295AA000CC54E1 /* NFCHelper.swift in Sources */,
+				01A4BF171F313DAB00525823 /* ChannelViewController.swift in Sources */,
+				01A4BF1C1F31445900525823 /* VideoViewController.swift in Sources */,
+				01DCDCD21F2959DB00CC54E1 /* AppDelegate.swift in Sources */,
+				0127A8DE1F3792FF008375C5 /* LFCChannel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DCDCDE1F2959DB00CC54E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01DCDCE91F2959DB00CC54E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01DCDCE41F2959DB00CC54E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01DCDCCD1F2959DB00CC54E1 /* SkuteNFC */;
+			targetProxy = 01DCDCE31F2959DB00CC54E1 /* PBXContainerItemProxy */;
+		};
+		01DCDCEF1F2959DB00CC54E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01DCDCCD1F2959DB00CC54E1 /* SkuteNFC */;
+			targetProxy = 01DCDCEE1F2959DB00CC54E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01DCDCD51F2959DB00CC54E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DCDCD61F2959DB00CC54E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01DCDCDA1F2959DB00CC54E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DCDCDB1F2959DB00CC54E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01DCDCF41F2959DB00CC54E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01DCDCF51F2959DB00CC54E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01DCDCF71F2959DB00CC54E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SkuteNFC/SkuteNFC.entitlements;
+				DEVELOPMENT_TEAM = Z4TF3NZ3E2;
+				INFOPLIST_FILE = SkuteNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crewDev.SkuteNFCTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01DCDCF81F2959DB00CC54E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SkuteNFC/SkuteNFC.entitlements;
+				DEVELOPMENT_TEAM = Z4TF3NZ3E2;
+				INFOPLIST_FILE = SkuteNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crewDev.SkuteNFCTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01DCDCFA1F2959DB00CC54E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z4TF3NZ3E2;
+				INFOPLIST_FILE = SkuteNFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crewDev.SkuteNFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkuteNFC.app/SkuteNFC";
+			};
+			name = Debug;
+		};
+		01DCDCFB1F2959DB00CC54E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z4TF3NZ3E2;
+				INFOPLIST_FILE = SkuteNFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crewDev.SkuteNFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkuteNFC.app/SkuteNFC";
+			};
+			name = Release;
+		};
+		01DCDCFD1F2959DB00CC54E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z4TF3NZ3E2;
+				INFOPLIST_FILE = SkuteNFCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crewDev.SkuteNFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkuteNFC;
+			};
+			name = Debug;
+		};
+		01DCDCFE1F2959DB00CC54E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z4TF3NZ3E2;
+				INFOPLIST_FILE = SkuteNFCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crewDev.SkuteNFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkuteNFC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DCDCC91F2959DB00CC54E1 /* Build configuration list for PBXProject "SkuteNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DCDCF41F2959DB00CC54E1 /* Debug */,
+				01DCDCF51F2959DB00CC54E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DCDCF61F2959DB00CC54E1 /* Build configuration list for PBXNativeTarget "SkuteNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DCDCF71F2959DB00CC54E1 /* Debug */,
+				01DCDCF81F2959DB00CC54E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DCDCF91F2959DB00CC54E1 /* Build configuration list for PBXNativeTarget "SkuteNFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DCDCFA1F2959DB00CC54E1 /* Debug */,
+				01DCDCFB1F2959DB00CC54E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DCDCFC1F2959DB00CC54E1 /* Build configuration list for PBXNativeTarget "SkuteNFCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DCDCFD1F2959DB00CC54E1 /* Debug */,
+				01DCDCFE1F2959DB00CC54E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01DCDCC61F2959DB00CC54E1 /* Project object */;
+}
